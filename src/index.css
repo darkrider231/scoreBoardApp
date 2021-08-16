@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* My Codes */
+.txtScore {
+  margin-top: 50px;
+  font-size: 50px;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+.scoreboard1 {
+  width: 500px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  display:flex;
+  background: black;
+  color: red;
+}
+
+.homeScore{
+  margin-right: 250px;
+  border: 1px solid black;
+  width: 150px;
+  height: 125px;
+  text-align: center;
+  font-size: 50px;
+  color: red;
+}
+
+.home1 {
+  margin-left: 30px;
+  font-size: 35px;
+  color: red;
+}
+
+.away1 {
+  margin-left: 335px;
+  font-size: 35px;
+  color: red;
+}
+
+.awayScore {
+  margin-left: 300px;
+  margin-top: -120px;
+  width: 150px;
+  height: 125px;
+  text-align: center;
+  font-size: 50px;
+  border: 1px solid black;
+}
+
+.vs {
+  margin-left: 210px;
+  margin-top: -100px;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+}
+
+.homeAddButton {
+  font-size: 35px;
+  width: 150px;
+  padding: 0px;
+}
+
+.awayAddButton {
+  font-size: 35px;
+  width: 150px;
+  padding: 0px;
+}
+
+.timeLeft {
+  font-size: 45px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px;
+
+}
+
+.time {
+  font-size: 80px;
+  text-align: center;
+  margin-left: 65px;
+  font-weight: bold;
+  color: red;
+  background: black;
+  border: 1px solid rgb(17, 16, 16);
+  width: 300px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
